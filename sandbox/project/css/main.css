@@ -1,8 +1,13 @@
 body {
-    background-color: white;
-    color: red;
+    background-color: hotpink;
 }
 
 a:visited {
     color: red !important;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 12px;
 }
