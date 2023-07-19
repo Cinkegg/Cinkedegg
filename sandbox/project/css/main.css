@@ -2,6 +2,9 @@ body {
     background-color: hotpink;
 }
 
+ul.Kinolist {
+    list-style-type: none;
+}   
 
 
 a:link {
