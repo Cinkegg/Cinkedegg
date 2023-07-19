@@ -1,8 +1,37 @@
+
+
 body {
-    background-color: white;
-    color: red;
+    background-color: rgb(255, 111, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-a:visited {
-    color: red !important;
+h1 {
+    color: white;
+    font-size:xxx-large;
+    font-family:
 }
+
+head {
+    color: white 
+}
+
+ul {
+text-decoration: solid;
+    color:white;
+    font-size: x-large;
+  }
+
+  th {
+font-size: x-large;
+
+  }
+ 
+   img {
+    width: 75%;
+    height: 75%;
+
+ }
+
