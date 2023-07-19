@@ -1,3 +1,5 @@
+
+
 body {
     background-color: hotpink;
     color: white;
@@ -91,6 +93,8 @@ table {
     border-collapse: collapse;
 }
 
+head {
+    color: white 
 .texta {
     margin-top: 0.5cm;
 }
