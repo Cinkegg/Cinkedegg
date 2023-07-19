@@ -50,7 +50,7 @@ nav{
 }
 
 ul.Kinolist {
-    list-style-type: none;
+    list-style: none;
 }   
 
 nav .logo p{
@@ -98,8 +98,7 @@ table {
 
 head {
     color: white 
-.texta {
-    margin-top: 0.5cm;
+    
 }
 button{
     width: 200px;
