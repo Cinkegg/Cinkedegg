@@ -2,13 +2,12 @@ body {
     background-color: hotpink;
 }
 
-a:visited {
-    color: red !important;
+
+
+a:link {
+    color: beige;
 }
 
-table {
-    border-spacing: 12px;
-    background-color: rgb(188, 29, 108);
-    text-align: center;
-
+a: :visited {
+    color: beige;
 }
