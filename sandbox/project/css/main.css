@@ -3,8 +3,8 @@ body {
     color: white;
 }
 
-a:visited {
-    color: white !important;
+nav a:visited {
+    color: hotpink !important;
 
 }
 
@@ -14,11 +14,13 @@ a:visited {
 
 }
 
-.center {
+.obrazekb {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    object-position: bottom 50px;
+    margin-top: 0.5cm;
 }
 
 * {
@@ -30,11 +32,13 @@ a:visited {
 
 nav{
     width: 100%;
-    height: 75px;
     line-height: 75px;
     padding: 0px 100px;
-    position: fixed;
-    background-image: linear-gradient(rgb(201, 0, 101));
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .banner {
@@ -43,14 +47,6 @@ nav{
 
 }
 
-.navbar {
-    width: 85%;
-    margin: auto;
-    padding: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 nav .logo p{
     font-size: 30px;
@@ -62,10 +58,39 @@ nav .logo p{
     cursor: pointer;
 }
 nav ul{
-    float: right;
+    text-align: left;
+    flex-basis: 30%;
 }
 
 nav li{
     display: inline-block;
     list-style: none;
+    position: relative;
+}
+nav ul li a{ 
+    text-decoration: none;
+    color: hotpink;
+    text-transform: uppercase;
+}
+
+nav ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: hotpink;
+    position: absolute;
+    left: 0;
+    bottom: +25px;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+table {
+    border-bottom: solid 2px white;
+    border-collapse: collapse;
+}
+
+.texta {
+    margin-top: 0.5cm;
 }
