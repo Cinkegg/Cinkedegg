@@ -7,7 +7,13 @@ body {
 a:link {
     color: beige;
 }
- 
-.JČ {
-    a
+
+a:visited {
+    color: beige;
+}
+a:hover {
+    color: beige;
+}
+a:active {
+    color: beige;
 }
