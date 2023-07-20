@@ -2,8 +2,19 @@
 <html>
 
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8" />
-    <h1><strong>Obsazení</strong></h1>
+    <nav>
+      <ul>
+          <li><a href="#">Úvod</a></li>
+          <li><a href="#">Hrají</a></li>
+          <li><a href="#">Kino</a></li>
+          <li><a href="#">Zajímavosti</a></li>
+      </ul>
+</nav>
+    <div class="rc"><h1><strong>Obsazení</strong></h1></div>
+    <div class="r"><h2><strong>⭐ Hlavní postavy ⭐</strong></h2></div>
+    <th><strong>________________________________________________________________________________</strong></th><br><br> 
 
     <title>Obsazení</title>
     <link rel="images" type="icon" src="images/barbie.png" />
@@ -14,17 +25,130 @@
 <body>
     
     <link rel="stylesheet" href="css/main.css">
-    <centre><img src="images/bg.jpg" alt="background"></centre>
+
    
     <centre>
-    <strong><ul>     
-            <th>Barbie </th><br><br>
-            <th> Ken </th><br><br>
-            <th> Presidentka B. </th><br><br>
-            <th> Ředitel Mattel</th><br>
-        </strong>
+    <strong>
+            
+            <div class="rectangle"><br><th>↓ Barbie ↓</th><br><br></div>
+            <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade barbie">
+      <img src="images/b1.jpg" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade barbie">
+      <img src="images/b3.jpg" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <div class="prev" onclick="plusSlides(-1, 'barbie')">&#10094;</div>
+    <div class="next" onclick="plusSlides(1, 'barbie')">&#10095;</div>
+ 
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'barbie')"></span>
+    <span class="dot" onclick="currentSlide(2, 'barbie')"></span>
+  </div>
+  
+        <div class="rectangle"><tr>↑ Margot Robbie ↑</tr><br><br></div> 
+        <th><strong>________________________________________________________________________________</strong></th><br><br>           
+        <div class="rectangle"><th>↓ Ken ↓</th><br><br></div>
+      </strong>
+    </centre> </div>
+ <!-- Slideshow container -->
+    
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade ken">
+      <img src="images/k2.webp" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade ken">
+      <img src="images/k3.jpg" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <div class="prev" onclick="plusSlides(-1, 'ken')">&#10094;</div>
+    <div class="next" onclick="plusSlides(1, 'ken')">&#10095;</div>
+ 
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'ken' )"></span>
+    <span class="dot" onclick="currentSlide(2, 'ken')"></span>
+  </div>
+        <div class="rectangle"><th><strong>↑ Ryan Gosling ↑</strong></th><br><br></div>
+        <th><strong>________________________________________________________________________________</strong></th><br><br> 
+            <div class="rectangle"><th><strong>↓ Presidentka B. ↓</strong></th><br><br></div>
+   </div>                  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade president">
+      <img src="images/is3.webp" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade president">
+      <img src="images/is1.jpg" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <div class="prev" onclick="plusSlides(-1, 'president') ">&#10094;</div>
+    <div class="next" onclick="plusSlides(1, 'president')">&#10095;</div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'president')"></span>
+    <span class="dot" onclick="currentSlide(2, 'president')"></span>
+  </div>
+            <div class="rectangle"><tr><strong>↑ Issa Rae ↑</strong></tr><br><br></div>
+            <th><strong>________________________________________________________________________________</strong></th><br><br> 
+            <div class="rectangle"><th><strong>↓ Ředitel Mattelu ↓</strong></th><br><br></div>  
+    </div>
+                  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade ceo">
+      <img src="images/w1.jpg" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade ceo">
+      <img src="images/w2.jpeg" style="width:50%">
+      <div class="text"></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <div class="prev" onclick="plusSlides(-1, 'ceo')">&#10094;</div>
+    <div class="next" onclick="plusSlides(1, 'ceo')">&#10095;</div>
+  
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'ceo')"></span>
+    <span class="dot" onclick="currentSlide(2, 'ceo')"></span>
+  </div>
+            <div class="rectangle"><tr><strong>↑ Will Ferrell ↑</strong></tr></div><br><br>
+            <th><strong>________________________________________________________________________________</strong></th><br><br> 
         </ul>
-   </centre>
+</div>
+<div class="rc"><h1><strong></strong></h1></div>
 </body>
 
 </html>
