@@ -123,12 +123,12 @@ span{
     left: 0;
     bottom: 0;
 }
-a:visited {
+.Kinolist a:visited {
     color: beige;
 }
-a:hover {
+.Kinolist a:hover {
     color: beige;
 }
-a:active {
+.Kinolist a:active {
     color: beige;
 }
