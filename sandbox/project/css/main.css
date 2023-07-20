@@ -1,129 +1,139 @@
-
-
 body {
-    background-color: hotpink;
-    color: white;
+  background-color: hotpink;
+  color: white;
 }
 
 nav a:visited {
-    color: hotpink !important;
-
+  color: hotpink !important;
 }
 
 .barbie-ve-filmu {
-    color: white;
+  margin: 30px;
+  color: white;
+  text-align: center;
+}
+.Zajímavosti{
     text-align: center;
-
+    margin: 30px;
 }
 
 .obrazekb {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    object-position: bottom 50px;
-    margin-top: 0.5cm;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  object-position: bottom 50px;
+  margin-top: 0.5cm;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-nav{
-    width: 100%;
-    line-height: 75px;
-    padding: 0px 100px;
-    background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
+nav {
+  width: 100%;
+  line-height: 75px;
+  padding: 0px 100px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .banner {
-    width: 25%;
-    height: 25vh;
-
+  width: 25%;
+  height: 25vh;
 }
 
 ul.Kinolist {
     list-style: none;
 }   
-
-nav .logo p{
-    font-size: 30px;
-    font-weight: bold;
-    float: left;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    cursor: pointer;
+nav .logo p {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
 }
-nav ul{
-    text-align: left;
-    flex-basis: 30%;
+nav ul {
+  text-align: left;
 }
 
-nav li{
-    display: inline-block;
-    list-style: none;
-    position: relative;
+nav li {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  margin-right: 20px;
 }
-nav ul li a{ 
-    text-decoration: none;
-    color: hotpink;
-    text-transform: uppercase;
-}
-
-nav ul li::after{
-    content: "";
-    height: 3px;
-    width: 0;
-    background: hotpink;
-    position: absolute;
-    left: 0;
-    bottom: +25px;
-    transition: 0.5s;
-}
-nav ul li:hover::after{
-    width: 100%;
-}
-table {
-    border-bottom: solid 2px white;
-    border-collapse: collapse;
+nav ul li a {
+  text-decoration: none;
+  color: hotpink;
+  text-transform: uppercase;
 }
 
+nav ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: hotpink;
+  position: absolute;
+  left: 0;
+  bottom: +25px;
+  transition: 0.5s;
+}
+nav ul li:hover::after {
+  width: 100%;
+}
 head {
-    color: white 
-    
+  color: white;
 }
-button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid white;
-    background: transparent;
-    color: white;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+.texta {
+  margin-top: 0.5cm;
 }
-span{
-    background: green;
-    height: 100%;
-    width: 100%;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.textb {
+  margin: 30px;
+  text-align: center;
+}
+button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+
+span {
+  background: rgb(80, 176, 255);
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span {
+  width: 100%;
+}
+button:hover {
+  border: none;
 }
 .Kinolist a:visited {
+
     color: beige;
 }
 .Kinolist a:hover {
@@ -132,3 +142,9 @@ span{
 .Kinolist a:active {
     color: beige;
 }
+
+.z1 {
+    color: white;
+    list-style-type: circle;
+}
+
