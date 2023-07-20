@@ -48,9 +48,6 @@ nav {
   height: 25vh;
 }
 
-ul.Kinolist {
-    list-style: none;
-}   
 nav .logo p {
   font-size: 30px;
   font-weight: bold;
@@ -131,16 +128,7 @@ button:hover span {
 button:hover {
   border: none;
 }
-.Kinolist a:visited {
 
-  color: beige;
-}
-.Kinolist a:hover {
-  color: beige;
-}
-.Kinolist a:active {
-  color: beige;
-}
 
 .z1 {
   color: white;

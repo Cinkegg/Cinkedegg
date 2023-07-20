@@ -1,1 +1,13 @@
 
+.Kinolist a:visited {
+    color: beige;
+  }
+  .Kinolist a:hover {
+    color: beige;
+  }
+  .Kinolist a:active {
+    color: beige;
+  }
+  ul.Kinolist {
+    list-style: none;
+}   
