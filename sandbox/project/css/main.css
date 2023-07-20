@@ -114,7 +114,6 @@ button {
   overflow: hidden;
 }
 
-
 span {
   background: rgb(80, 176, 255);
   height: 100%;
@@ -150,11 +149,9 @@ button:hover {
 .z2 {
   color: white;
   list-style-type: initial;
-  margin-bottom: 1cm;
 }
 .xcv {
-    margin-left: 1cm;
-    margin-bottom: 0.3cm;
- 
+  margin-top: 0.3cm;
+  margin-left: 1cm;
+  margin-bottom: 0.3cm;
 }
-
