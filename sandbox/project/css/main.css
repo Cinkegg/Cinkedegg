@@ -12,9 +12,9 @@ nav a:visited {
   color: white;
   text-align: center;
 }
-.Zajímavosti{
-    text-align: center;
-    margin: 30px;
+.Zajímavosti {
+  text-align: center;
+  margin: 30px;
 }
 
 .obrazekb {
@@ -49,8 +49,8 @@ nav {
 }
 
 ul.Kinolist {
-    list-style-type: none;
-}   
+  list-style-type: none;
+}
 nav .logo p {
   font-size: 30px;
   font-weight: bold;
@@ -96,7 +96,7 @@ head {
   margin-top: 0.5cm;
 }
 .textb {
-  margin: 30px;
+  margin-bottom: 1cm;
   text-align: center;
 }
 button {
@@ -132,15 +132,33 @@ button:hover {
 }
 
 a:visited {
-    color: beige;
+  color: beige;
 }
 a:hover {
-    color: beige;
+  color: beige;
 }
 a:active {
-    color: beige;
+  color: beige;
 }
 .z1 {
-    color: white;
-    list-style-type: circle;
+  color: white;
+  list-style-type: circle;
+}
+.Zajímavostiv {
+  text-align: center;
+  margin-top: 1cm;
+}
+.opnh {
+  margin-left: 1cm;
+  margin-bottom: 0.3cm;
+}
+.z2 {
+  color: white;
+  list-style-type: initial;
+  margin-bottom: 1cm;
+}
+.xcv {
+    margin-left: 1cm;
+    margin-bottom: 0.3cm;
+    margin-top: 0.3cm;
 }
