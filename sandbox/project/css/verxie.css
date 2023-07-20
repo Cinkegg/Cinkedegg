@@ -35,6 +35,49 @@ a:active {
     list-style-position: inside;
 }
 .ramecek3 {
+    margin: 20px;
     border: solid 2px white;
     list-style-position: inside;
+}
+.ramecek3 div {
+    border-bottom: solid 0px white;
+    list-style-position: inside;
+}
+.ramecek3 ul {
+    border: solid 0px white;
+    list-style-position: inside;
+}
+.ramecek2 {
+    margin: 40px;
+    border: solid 2px white;
+    list-style-position: inside;
+}
+.ramecek2 div {
+    border-bottom: solid 0px white;
+    list-style-position: inside;
+}
+.ramecek2 ul.z2 {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid 2px white;
+    list-style-position: inside;
+}
+.ramecek2 ul.z3 {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    list-style-position: inside;
+}
+
+
+.hop {
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.z1 {
+    margin-right: 20px;
 }
