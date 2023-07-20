@@ -1,0 +1,21 @@
+
+.Kinolist a:visited {
+    color: beige;
+  }
+  .Kinolist a:hover {
+    color: beige;
+  }
+  .Kinolist a:active {
+    color: beige;
+  }
+  ul.Kinolist {
+    list-style: none;
+}   
+img.image {
+    border-radius: 30%;
+    margin: 0 auto;
+}   
+.container {
+    display:flex;
+    justify-content: center;
+}

@@ -6,35 +6,100 @@
     <title>Barbie ve filmu</title>
     <link rel="icon" href="css/barbie.jpg">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/cinked.css" />
 </head>
 
 <body>
-    <ul class="Kinolist">
-        Kde V Kinech?
-    </ul>
-    <li>
-        Jižní Čechy
-    </li>
-    <li>
-        Brno
-    </li>
-    <li>
-        Hradec Králové A Okolí
-    </li>
-    <li>
-        Karlovy Vary A Okolí
-    </li>
-    <li>
-        V Praze
-    </li>
-    <li>
-        Plzeň A Okolí
-    </li>
-    <li>
-        Liberec A Okolí
-    </li>
-
-
+        <nav>
+                <ul>
+                    <li><a href="verxie.html#">Úvod</a></li>
+                    <li><a href="anyxia.html">Hrají</a></li>
+                    <li><a href="cinked.html">Kino</a></li>
+                    <li><a href="verxie2.html">Zajímavosti</a></li>
+                </ul>
+    </nav>
+        <div>
+            <h1 class="barbie-ve-filmu"><strong>Barbie v kinech</strong></h1>
+        </div>
+    <p>
+</p>
+<style>
+    .overlay-container {
+      position: relative;
+      width: 50%;
+    }
+    
+    image image/kino {
+      display: absolute;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #ae077f;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: 1.2s ease;
+    }
+    
+    .container:hover .overlay {
+      width: 100%;
+    }
+    
+    .text {
+      white-space: nowrap; 
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+    </style>
+    
+    <div class="container">
+    <div class="overlay-container">
+      <img src="images/kino.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text"><h4> 
+                Kde a kdy?
+                <ul class="Kinolist">
+            
+            <li class="JČ">
+                <a href="https://www.informuji.cz/kina/film-barbie-kraj-jce.html">Jižní Čechy</a>
+            </li>
+            <li class="B">
+                <a href ="https://www.informuji.cz/kina/film-barbie-kraj-jhm.html" >Brno</a>
+            </li>
+            <li class="HK">
+                <a href ="https://www.informuji.cz/kina/film-barbie-kraj-kr.html" >Hradec Králové A Okolí</a>
+            </li>
+            <li class="KV">
+                <a href ="https://www.informuji.cz/kina/film-barbie-kraj-kv.html">Karlovy Vary A Okolí</a>
+            </li>
+            <li class="P">
+                <a href ="https://www.informuji.cz/kina/film-barbie-kraj-praha.html">V Praze</a>
+            </li>
+            <li class="Pl">
+                <a href ="https://www.informuji.cz/kina/film-barbie-kraj-plz.html">Plzeň A Okolí</a>
+            </li>
+            <li class="L">
+                <a href ="https://www.informuji.cz/kina/film-barbie-kraj-l.html">Liberec A Okolí</a>
+            </li>
+            </ul>
+        </h4>
+    </div>
+</div>
+      </div>
+    </div>
+    
 </body>
 
 </html>
