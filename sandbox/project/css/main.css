@@ -113,6 +113,8 @@ button {
   position: relative;
   overflow: hidden;
 }
+
+
 span {
   background: rgb(80, 176, 255);
   height: 100%;
@@ -131,15 +133,6 @@ button:hover {
   border: none;
 }
 
-a:visited {
-  color: beige;
-}
-a:hover {
-  color: beige;
-}
-a:active {
-  color: beige;
-}
 .z1 {
   color: white;
   list-style-type: circle;
@@ -162,3 +155,4 @@ a:active {
     margin-bottom: 0.3cm;
     margin-top: 0.3cm;
 }
+
