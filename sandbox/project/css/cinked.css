@@ -11,6 +11,11 @@
   ul.Kinolist {
     list-style: none;
 }   
-img .obki {
-    border-radius: 50%;
+img.image {
+    border-radius: 30%;
+    margin: 0 auto;
+}   
+.container {
+    display:flex;
+    justify-content: center;
 }
