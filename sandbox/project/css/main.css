@@ -114,7 +114,6 @@ button {
   overflow: hidden;
 }
 
-
 span {
   background: rgb(80, 176, 255);
   height: 100%;
@@ -134,17 +133,17 @@ button:hover {
 }
 .Kinolist a:visited {
 
-    color: beige;
+  color: beige;
 }
 .Kinolist a:hover {
-    color: beige;
+  color: beige;
 }
 .Kinolist a:active {
-    color: beige;
+  color: beige;
 }
 
 .z1 {
-    color: white;
-    list-style-type: circle;
+  color: white;
+  list-style-type: circle;
 }
 
